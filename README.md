@@ -80,6 +80,8 @@ HAVOC_SERVICE_PASSWORD = "YOUR_SERVICE_PASSWORD"
 EXTERNAL_C2_ENDPOINT = "http://127.0.0.1/your_external_c2_endpoint"
 ```
 
+---
+
 ## Social Networks
 
 **Christopher Thiefin (Processus)**  
@@ -95,6 +97,7 @@ Trainer & Speaker in Cybersecurity 💻🎥 | Microsoft Security MVP
 
 [Watch the Demo](assets/demo.mp4)
 
+---
 
 ## Limits
 
