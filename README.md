@@ -82,6 +82,9 @@ EXTERNAL_C2_ENDPOINT = "http://127.0.0.1/your_external_c2_endpoint"
 
 ## Social Networks
 
+**Christopher Thiefin (Processus)**  
+Trainer & Speaker in Cybersecurity 💻🎥 | Microsoft Security MVP
+
 - [YouTube](https://www.youtube.com/c/processusthief)
 - [Twitter](https://x.com/ProcessusT)
 - [LinkedIn](https://www.linkedin.com/in/christopher-thiefin/)
@@ -90,7 +93,7 @@ EXTERNAL_C2_ENDPOINT = "http://127.0.0.1/your_external_c2_endpoint"
 
 ## Video Demo
 
-[![Watch the Demo](assets/demo.png)](assets/demo.mp4)
+[Watch the Demo](assets/demo.mp4)
 
 
 ## Limits
