@@ -2,7 +2,7 @@
   <img src="assets/demo.png" alt="Havoc GitHub C2 Demo" width="600"/>
 </p>
 
-# HavocGitC2
+# HavocHub
 
 **PoC of a Havoc agent communicating over GitHub**
 
