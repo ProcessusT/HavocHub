@@ -17,6 +17,10 @@ This project demonstrates a Proof-of-Concept (PoC) for a Red Team post-exploitat
 - Communication flows entirely through the GitHub API, providing a covert and resilient C2 channel.
 - The Havoc operator can issue commands as usual; results are transferred back and forth via GitHub.
 
+<p align="center">
+  <img src="assets/schema.png" alt="Schema - Havoc GitHub C2 Demo" width="600"/>
+</p>
+
 ---
 
 ## How To Use
